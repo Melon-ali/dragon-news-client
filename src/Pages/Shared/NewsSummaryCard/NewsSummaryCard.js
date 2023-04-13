@@ -14,7 +14,7 @@ const NewsSummaryCard = ({news}) => {
                     <Image
                         roundedCircle
                         className='me-2'
-                        src={author.img}
+                        src={author?.img}
                         style={{height: '60px'}}
                     ></Image>
                     <div>
